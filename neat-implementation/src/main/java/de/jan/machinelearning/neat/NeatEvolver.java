@@ -28,10 +28,10 @@ public class NeatEvolver<G> implements INeatEvolver {
     private final Random random = new Random();
 
     private final File genomeDb;
-    private final int populationSize = 20;
-    private final float mutationRate = 0.1f;
-    private final float addConnectionRate = 0.1f;
-    private final float addNodeRate = 0.1f;
+    private final int populationSize = 100;
+    private final float mutationRate = 0.3f;
+    private final float addConnectionRate = 0.3f;
+    private final float addNodeRate = 0.3f;
 
     private int counter;
 
