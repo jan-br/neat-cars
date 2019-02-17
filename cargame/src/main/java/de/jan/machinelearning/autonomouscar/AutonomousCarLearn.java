@@ -5,7 +5,6 @@ import de.jan.machinelearning.autonomouscar.control.VehicleControlKey;
 import de.jan.machinelearning.autonomouscar.render.GamePanel;
 import de.jan.machinelearning.autonomouscar.render.Physics2D;
 import de.jan.machinelearning.autonomouscar.render.Renderable;
-import de.jan.machinelearning.autonomouscar.render.model.Vehicle;
 import de.jan.machinelearning.neat.NeatEvolver;
 
 import javax.swing.*;
@@ -83,7 +82,7 @@ public class AutonomousCarLearn extends JFrame {
                     ((Physics2D) renderable).tick();
                 }
             }
-        }, 0, 10);
+        }, 0, 40);
         new Timer().schedule(new TimerTask() {
             public void run() {
                 repaint();
